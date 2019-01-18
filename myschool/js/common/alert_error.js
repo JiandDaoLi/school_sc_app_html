@@ -7,5 +7,7 @@ function errorAJAX(http) {
 	}
 	if(http.status == 404) {
 		mui.alert('网页未找到', ' ', '确认', 'div')
+	}else{
+		mui.alert('未知错误', ' ', '确认', 'div')
 	}
 }
