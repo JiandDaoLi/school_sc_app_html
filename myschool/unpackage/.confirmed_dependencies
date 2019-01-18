@@ -1,0 +1,43 @@
+{
+	"html/forum/forum_index.html": {
+		"resources": [
+			"html/forum/forum_index_content_subPage.html"
+		],
+		"refer": [
+			"html/forum/forum_index_content_subPage.html",
+			"html/forum/forum_personal.html",
+			"html/forum/forum_article_main_content.html",
+			"html/forum/forum_index_input_sub_page.html"
+		]
+	},
+	"html/forum/forum_personal.html": {
+		"refer": [
+			"html/forum/forum_write_article.html",
+			"html/forum/forum_personale_mind_fans.html",
+			"html/forum/forum_emit_article.html",
+			"html/forum/forum_article_sign.html"
+		]
+	},
+	"html/forum/new_file.html": {
+		"resources": [
+			"html/forum/test.html"
+		],
+		"refer": [
+			"html/forum/test.html"
+		]
+	},
+	"html/forum/forum_index_content_subPage.html": {
+		"refer": [
+			"html/forum/forum_article_main_content.html",
+			"html/forum/forum_personal.html"
+		],
+		"resources": [
+			"image/00.jpg"
+		]
+	},
+	"html/forum/forum_article_sign.html": {
+		"refer": [
+			"html/forum/forum_article_main_content.html"
+		]
+	}
+}
